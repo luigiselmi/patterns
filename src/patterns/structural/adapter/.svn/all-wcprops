@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/5/trunk/Patterns/src/patterns/structural/adapter
+END
+AdapterClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/5/trunk/Patterns/src/patterns/structural/adapter/AdapterClient.java
+END
+DelegateAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/5/trunk/Patterns/src/patterns/structural/adapter/DelegateAdapter.java
+END
+Adaptee.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/5/trunk/Patterns/src/patterns/structural/adapter/Adaptee.java
+END
+Target.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/trunk/Patterns/src/patterns/structural/adapter/Target.java
+END

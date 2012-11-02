@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/5/trunk/Patterns/src/patterns/structural/bridge
+END
+ConcreteImplementorA.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/5/trunk/Patterns/src/patterns/structural/bridge/ConcreteImplementorA.java
+END
+RefinedAbstraction.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/5/trunk/Patterns/src/patterns/structural/bridge/RefinedAbstraction.java
+END
+Abstraction.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/5/trunk/Patterns/src/patterns/structural/bridge/Abstraction.java
+END
+Implementor.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/5/trunk/Patterns/src/patterns/structural/bridge/Implementor.java
+END
+BridgeClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/5/trunk/Patterns/src/patterns/structural/bridge/BridgeClient.java
+END
+ConcreteImplementorB.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/5/trunk/Patterns/src/patterns/structural/bridge/ConcreteImplementorB.java
+END

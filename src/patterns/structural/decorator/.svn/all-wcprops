@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/5/trunk/Patterns/src/patterns/structural/decorator
+END
+HTMLPrinterDecorator.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/5/trunk/Patterns/src/patterns/structural/decorator/HTMLPrinterDecorator.java
+END
+AbstractPrinter.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/5/trunk/Patterns/src/patterns/structural/decorator/AbstractPrinter.java
+END
+XMLPrinterDecorator.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/5/trunk/Patterns/src/patterns/structural/decorator/XMLPrinterDecorator.java
+END
+DecoratorClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/5/trunk/Patterns/src/patterns/structural/decorator/DecoratorClient.java
+END
+PlainTextPrinter.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/5/trunk/Patterns/src/patterns/structural/decorator/PlainTextPrinter.java
+END

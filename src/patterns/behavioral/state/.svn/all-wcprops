@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/5/trunk/Patterns/src/patterns/behavioral/state
+END
+StateClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/5/trunk/Patterns/src/patterns/behavioral/state/StateClient.java
+END
+ConnectionEstablished.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/5/trunk/Patterns/src/patterns/behavioral/state/ConnectionEstablished.java
+END
+ConnectionClosed.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/5/trunk/Patterns/src/patterns/behavioral/state/ConnectionClosed.java
+END
+ConnectionState.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/5/trunk/Patterns/src/patterns/behavioral/state/ConnectionState.java
+END
+ConnectionContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/5/trunk/Patterns/src/patterns/behavioral/state/ConnectionContext.java
+END

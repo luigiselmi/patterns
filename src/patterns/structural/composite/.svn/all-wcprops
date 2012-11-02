@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/5/trunk/Patterns/src/patterns/structural/composite
+END
+Leaf.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/trunk/Patterns/src/patterns/structural/composite/Leaf.java
+END
+Component.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/5/trunk/Patterns/src/patterns/structural/composite/Component.java
+END
+Composite.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/5/trunk/Patterns/src/patterns/structural/composite/Composite.java
+END
+CompositeClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/5/trunk/Patterns/src/patterns/structural/composite/CompositeClient.java
+END
+LeafException.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/5/trunk/Patterns/src/patterns/structural/composite/LeafException.java
+END
