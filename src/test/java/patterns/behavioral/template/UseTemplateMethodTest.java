@@ -14,7 +14,6 @@ public class UseTemplateMethodTest extends TestCase {
 	public void testRunTemplateMethod() {
 		//Results to be asserted true
 		String RUN_TEMPLATE_METHOD_MESSAGE = "Ingredients: pasta, tomato, salt, olive oil, parmisan cheese\n";
-		//fail("Not yet implemented");
 
 		String result = concrete.chooseIngredients();
 		assertTrue( RUN_TEMPLATE_METHOD_MESSAGE.equals(result) );
