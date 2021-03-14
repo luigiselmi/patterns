@@ -1,33 +1,23 @@
 package patterns.behavioral.template;
 
-import patterns.behavioral.template.ConcreteClass;
+import patterns.behavioral.template.PastaRecipe;
 import junit.framework.TestCase;
 
 public class UseTemplateMethodTest extends TestCase {
 
-	private ConcreteClass concrete;
+	private Recipe concrete;
 
 	protected void setUp() throws Exception {
-		concrete = new ConcreteClass();
-	}
-
-	protected void tearDown() throws Exception {
+		concrete = new PastaRecipe();
 	}
 
 	public void testRunTemplateMethod() {
 		//Results to be asserted true
-		String RUN_TEMPLATE_METHOD_MESSAGE = "This is method1()This is method2()This is method3()";
+		String RUN_TEMPLATE_METHOD_MESSAGE = "Ingredients: pasta, tomato, salt, olive oil, parmisan cheese\n";
 		//fail("Not yet implemented");
 
-		String result = concrete.templateMethod();
+		String result = concrete.chooseIngredients();
 		assertTrue( RUN_TEMPLATE_METHOD_MESSAGE.equals(result) );
-	}
-
-	public void testToString() {
-		// Results to be asserted true
-		String TO_STRING_MESSAGE = "patterns.behavioral.template.ConcreteClass: no more info";
-
-		assertTrue(TO_STRING_MESSAGE.equals(concrete.toString()));
 	}
 
 }
