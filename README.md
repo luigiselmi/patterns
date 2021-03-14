@@ -1,4 +1,6 @@
-Example of Java Patterns: behavioral, structural and creational
+Java Design Patterns
+====================
+Object-Oriented Design Patterns in Java: behavioral, structural and creational
 
 This project contains almost all the GoF patterns written in Java.
 
