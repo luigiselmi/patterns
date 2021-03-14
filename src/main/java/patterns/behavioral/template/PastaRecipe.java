@@ -7,18 +7,15 @@ package patterns.behavioral.template;
  */
 public class PastaRecipe extends Recipe{
 	public String chooseIngredients(){
-		String result = "Ingredients: pasta, tomato, salt, olive oil, parmisan cheese\n";
-		return result;
+		return "Ingredients: pasta, tomato, salt, olive oil, parmisan cheese\n";
 	}
 
 	public String cook(){
-		String result = "Cooking: put pasta in boiling water and cook tomato with salt and oil\n";
-		return result;
+		return "Cooking: put pasta in boiling water and cook tomato with salt and oil\n";
 	}
 
 	public String serve(){
-		String result = "Put the tomato souce onto the pasta and serve with parmisan cheese\n";
-		return result;
+		return "Put the tomato souce onto the pasta and serve with parmisan cheese\n";
 	}
 
 	public String toString(){
