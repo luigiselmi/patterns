@@ -1,40 +1,36 @@
 package patterns.creational.singleton;
 
 /**
- * A man ask a Wedding Manager for more wifes. Look at what he gets. :)
+ * The Wife class is istantiated, she is the wife of a man.
+ * The man makes a promise, that is, sends a message to his wife.
+ * The manager 
  * @author Luigi
- *@version 0.1
+ * @version 0.1
  */
 public class WeddingManager {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-//		 TODO code application logic here
-        Wife firstWife, secondWife;
-        String HUSBAND_PROMISE = "I will love you for ever!";
+	
+  public static void main(String[] args) {
+		
+	Wife firstWife, secondWife;
+	String HUSBAND_PROMISE = "I will love you for ever!";
+	
+	firstWife = Wife.getInstance();
+	
+	if(firstWife != null) 
+		System.out.println("An instance of wife is started.");
+	else
+		System.out.println("There's no instance of Wife.");
 
-        System.out.println("Trying to get married...");
-        firstWife = Wife.getInstance();
-        //Tell you'll love her for ever
-        firstWife.makePromiseForLife(HUSBAND_PROMISE);
-        if(firstWife != null)
-        {
-
-            System.out.println("Do not forget your promise: " + firstWife.getHusbandPromiseFromMemory());
-        }
-
-        System.out.println("Trying to get married twice...");
-        secondWife = Wife.getInstance();
-        if(secondWife != null)
-        {
-            System.out.println("You liar, bastard! I am your only wife. Did you forget your promise ? \"" + secondWife.getHusbandPromiseFromMemory() + "\"");
-        }
-
-
-
-	}
+	System.out.println("Her husband make a promise: " + HUSBAND_PROMISE);
+	firstWife.makePromiseForLife(HUSBAND_PROMISE);
+	
+	System.out.println("Some years later the man asks his wife what was his promise and her answer is:");
+	
+	secondWife = Wife.getInstance();
+	if(secondWife != null) 
+	    System.out.println("\"" + secondWife.getHusbandPromiseFromMemory() + "\"");
+	
+  }
 
 }
